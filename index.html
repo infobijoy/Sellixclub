@@ -20,6 +20,44 @@
     <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
     <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <style>
+        .img-r-1 {
+            display: none;
+        }
+
+        .img-r-2 {
+            display: block;
+        }
+
+        .border-b {
+            border-bottom-width: 2px !important;
+        }
+
+        @media (min-width: 768px) {
+            .img-r-1 {
+                display: block !important;
+            }
+
+            .img-r-2 {
+                display: none !important;
+            }
+
+            .md-mt-2 {
+                margin-top: 10px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .md-mt-2 {
+                margin-top: 10px !important;
+                margin-left: 10px;
+            }
+
+            .md-mt-2 div {
+                margin-bottom: 0px !important;
+            }
+        }
+    </style>
 </head>
 
 <body class="font-inter text-base text-slate-900 dark:text-white dark:bg-slate-900">
@@ -853,7 +891,10 @@
 
 
 
-        <div class="container relative md:mt-24 mt-16">
+
+
+
+        <div class="container relative md:mt-24 mt-16 img-r-1">
             <div class="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
 
                 <div class="lg:col-span-6">
@@ -897,6 +938,59 @@
             <!--end grid-->
         </div>
         <!--end container-->
+        <div class="container relative md:mt-24 mt-16 img-r-2">
+            <div class="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
+                <div class="lg:col-span-6">
+                    <div class="lg:me-8">
+                        <img src="assets/images/3.png" alt="">
+                    </div>
+                </div>
+                <div class="lg:col-span-6">
+                    <div class="grid grid-cols-1 gap-[30px]">
+                        <div
+                            class="group flex items-center relative overflow-hidden p-6 rounded-md shadow dark:shadow-gray-800 hover:bg-sky-500 dark:hover:bg-sky-500 transition-all duration-500 ease-in-out">
+                            <span
+                                class="text-sky-500 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
+                            </span>
+                            <div class="flex-1 ms-3">
+                                <h5
+                                    class="group-hover:text-white text-xl font-semibold transition-all duration-500 ease-in-out">
+                                    Reseller Hosting In Bangladesh</h5>
+                                <p
+                                    class="text-slate-400 group-hover:text-white transition-all duration-500 ease-in-out mt-2">
+                                    Reseller Hosting in Bangladesh refers to a type of web hosting service that allows
+                                    individuals or businesses to resell hosting services to their own customers. We
+                                    provide best reseller hosting in Bangladesh. Our Singapure Reseller Hosting best for
+                                    Worldwide visitors website owner. With Reseller Hosting, you can purchase a large
+                                    amount of disk space and bandwidth from a web hosting provider, divide it into
+                                    smaller hosting packages, and sell them to your clients at a markup. This can be a
+                                    profitable business model for web designers, developers, and entrepreneurs who want
+                                    to offer web hosting services to their clients without the overhead costs of running
+                                    a data center. Many web hosting providers in Bangladesh offer Reseller Hosting plans
+                                    that come with features such as white-label branding, cPanel control panels, and
+                                    24/7 support.</p>
+                            </div>
+                            <div
+                                class="absolute start-1 top-5 text-dark/[0.03] dark:text-white/[0.03] text-8xl group-hover:text-white/[0.04] transition-all duration-500 ease-in-out">
+                                <i class="uil uil-swatchbook"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end grid-->
+        </div>
+        <!--end container-->
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1409,8 +1503,8 @@
             <div class="grid grid-cols-12">
                 <div class="col-span-12">
                     <div class="py-[60px] px-0 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        <div>
-                            <div style=" font-size: 20px;" class="inline-block border-gray-600 mb-3">
+                        <div class="md-mt-2">
+                            <div style=" font-size: 20px;" class="inline-block border-b border-gray-600 mb-3">
                                 <h3 class="font-semibold">Domain</h3>
                             </div>
                             <ul>
@@ -1421,8 +1515,8 @@
                         </div>
 
                         <!-- Column 2 -->
-                        <div>
-                            <div style=" font-size: 20px;" class="inline-block border-gray-600 mb-3">
+                        <div class="md-mt-2">
+                            <div style=" font-size: 20px;" class="inline-block border-gray-600 mb-3 border-b">
                                 <h3 class="font-semibold">Shared Hosting</h3>
                             </div>
                             <ul>
@@ -1434,8 +1528,8 @@
                         </div>
 
                         <!-- Column 3 -->
-                        <div>
-                            <div style=" font-size: 20px;" class="inline-block border-gray-600 mb-3">
+                        <div class="md-mt-2">
+                            <div style=" font-size: 20px;" class="inline-block border-gray-600 mb-3 border-b">
                                 <h3 class="font-semibold">Reseller Hosting</h3>
                             </div>
                             <ul>
@@ -1446,8 +1540,8 @@
                         </div>
 
                         <!-- Column 4 -->
-                        <div>
-                            <div style=" font-size: 20px;" class="inline-block border-gray-600 mb-3">
+                        <div class="md-mt-2">
+                            <div style=" font-size: 20px;" class="inline-block border-gray-600 mb-3 border-b">
                                 <h3 class="font-semibold">Support</h3>
                             </div>
                             <ul>
